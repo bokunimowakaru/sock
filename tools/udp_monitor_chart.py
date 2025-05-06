@@ -374,7 +374,7 @@ def wsgi_app(environ, start_response):              # HTTPアクセス受信時�
     if http_port != 80:
         html += ':' + str(http_port)
     html += '/?{devices|items}[&device=name][&item=name][&hist=device_name]</font></div>\n'
-    html += '<div>Copyright (c) 2021-2022<a href="https://bokunimo.net">Wataru KUNINO</a></div>\n'
+    html += '<div>Copyright (c) 2021-2025<a href="https://bokunimo.net">Wataru KUNINO</a></div>\n'
     html += '</tr>\n</table>\n'                     # 表の終了
     html += '</body>\n</html>\n'                    # htmlの終了
     start_response('200 OK', [('Content-type', 'text/html; charset=utf-8')])
