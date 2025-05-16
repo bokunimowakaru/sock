@@ -3,25 +3,16 @@
 # Example 07 IoT連携の基本 HTTP GET
 
 import urllib.request                           # HTTP通信ライブラリを組み込む
+import json                                     # JSON変換ライブラリを組み込む
 
-url_s = 'http://127.0.0.1:8080/'                # アクセス先を変数url_sへ代入
+url_s = 'https://bokunimo.net/cq/ip/test.json'  # アクセス先を変数url_sへ代入
 
 res = urllib.request.urlopen(url_s)             # HTTPアクセスを実行
-print(res.read().decode().strip())              # 受信データを変数res_dictへ代入
+res_dict = json.loads(res.read().decode())      # 受信データを変数res_dictへ代入
 res.close()                                     # HTTPアクセスの終了
 
-''' ----------------------------------------------------------------------------
-HTTPサーバ側：
-pi@raspberry:~/udp/learning $ ./ex4_tcp_srv.py
-Listening TCP port 8080 ...
-127.0.0.1 37874
-GET / HTTP/1.1
-Accept-Encoding: identity
-Host: 127.0.0.1:8080
-User-Agent: Python-urllib/3.9
-Connection: close
---------------------------------------------------------------------------------
-HTTPクラアント側(★本プログラム)：
-pi@raspberry:~/udp/learning $ ./ex5_htget.py
-<html>Hello!</html>
----------------------------------------------------------------------------- '''
+print('title :', res_dict.get('title'))         # 項目'title'の内容を取得・表示
+print('descr :', res_dict.get('descr'))         # 項目'descr'の内容を取得・表示
+print('state :', res_dict.get('state'))         # 項目'state'の内容を取得・表示
+print('url   :', res_dict.get('url'))           # 項目'url'内容を取得・表示
+print('date  :', res_dict.get('date'))          # 項目'date'内容を取得・表示
