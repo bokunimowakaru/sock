@@ -31,7 +31,7 @@ sock.close()                                                # セッション終
 
 i_body = res.find('\r\n\r\n')                               # HTTP BODY位置検索
 body = res[i_body + 4:]                                     # HTTP BODYを収容
-if i_body < 0 or len(body) <= 0:                            # BODYなし時
+if i_body < 0 or len(body) == 0:                            # BODYなし時
     print(res)                                              # 応答文そのまま表示
     exit()                                                  # 終了
 
