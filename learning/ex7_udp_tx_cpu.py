@@ -7,6 +7,10 @@
 # Windowsの場合はPowerShellから下記を実行してください
 # pip install psutil
 
+# Windowsの場合はブロードキャストIPアドレスに255.255.255.255が使用できないので
+# sock.sendtoを同一セグメント内のブロードキャスト・IPアドレスに修正してください
+# (例えば192.168.1.0/24のセグメントの場合は、末尾255にした192.168.1.255宛)
+
 import socket                                               # ソケットの組み込み
 import psutil                                               # システム情報取得
 from time import sleep                                      # スリープの組み込み
