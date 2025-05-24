@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# TCPを送信する
+# TCPクライアント：TCPで温度値を送信します。(外付けセンサ不要)
 # Copyright (c) 2021-2025 Wataru KUNINO
-
-# TCPで温度値を送信します。(外付けセンサ不要)
-# ./ex3_tx_temp.py
 
 import socket                                               # ソケットの組み込み
 from time import sleep                                      # スリープの組み込み
@@ -26,7 +23,6 @@ while True:                                                 # 繰り返し構文
     sleep(10)                                               # 10秒の待ち時間処理
 
 '''
-pi@raspberrypi:~/tcp/learning $ ./ex3_tx_temp.py
 send : temp._1,25.5
 send : temp._1,26.5
 send : temp._1,25.5

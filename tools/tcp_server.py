@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# TCPを受信する
+# TCPサーバ：TCPデータを受信し、表示します
 # Copyright (c) 2021-2025 Wataru KUNINO
-
-# TCPで受信した文字列を表示します。
-# ./ex2_rx.py
 
 import socket                                               # ソケットの組み込み
 timeout = 600                                               # タイムアウト10分
@@ -41,7 +38,7 @@ except TimeoutError:                                        # タイムアウト
 try:
     if client:                                              # データ受信
         print('Sending FIN...')
-        client.shutdown(1)                                  # 切断要求(FIN)送信
+        client.shutdown(socket.SHUT_WR)                     # 切断要求(FIN)送信
         receive(client)                                     # 関数receiveを実行
 except KeyboardInterrupt:                                   # キーボード割り込み
     print('Keyboard Interrupted')

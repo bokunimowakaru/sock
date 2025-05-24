@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# TCPを送信する
+# TCPクライアント：TCPで温度値と湿度値を送信します。(外付けセンサ = SHT30)
 # Copyright (c) 2021-2025 Wataru KUNINO
-
-# TCPで温度値と湿度値を送信します。(外付けセンサ = SHT30)
-# ./ex3_tx_humi.py
 
 import socket                                               # ソケットの組み込み
 from time import sleep                                      # スリープの組み込み
@@ -26,7 +23,6 @@ while True:                                                 # 繰り返し構文
     sleep(10)                                               # 10秒の待ち時間処理
 
 '''
-pi@raspberrypi:~/tcp/learning $ ./ex3_tx_humi.py
 send : humid_1,29.7, 56.13
 send : humid_1,29.7, 56.18
 send : humid_1,29.7, 56.18

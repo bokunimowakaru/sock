@@ -27,7 +27,7 @@ http = 'GET /test.json HTTP/1.1\nHost: bokunimo.net\n\n'    # HTTPペイロー�
 
 sock.send(http.encode())                                    # HTTPリクエスト送信
 res = sock.recv(1024).decode()                              # HTTPレスポンス受信
-sock.close()                                                # セッション終了
+sock.close()                                                # ソケット通信の切断
 
 i_body = res.find('\r\n\r\n')                               # HTTP BODY位置検索
 body = res[i_body + 4:]                                     # HTTP BODYを収容
