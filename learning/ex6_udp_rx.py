@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# UDPを受信する
-# Copyright (c) 2021 Wataru KUNINO
-
 # UDPで受信した文字列を表示します。
-# ./ex2_rx.py
+# Copyright (c) 2021-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み
 

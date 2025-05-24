@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# UDPを送信する
-# Copyright (c) 2021 Wataru KUNINO
-
 # UDPで文字列'Ping'を送信します。
-# ./ex1_tx.py
+# Copyright (c) 2021-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み
 
