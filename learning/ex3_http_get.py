@@ -22,7 +22,7 @@ port = 80                                                   # ポート番号を
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)    # TCP用ソケット作成
 sock.connect((http_serv, port))                             # TCP接続
 
-http = 'GET /test.html HTTP/1.1\nHost: bokunimo.net\n\n'    # HTTPペイロード
+http = 'GET /test.html HTTP/1.1\nHost: bokunimo.net\n\n'    # HTTPリクエスト電文
 
 sock.send(http.encode())                                    # HTTPリクエスト送信
 res = sock.recv(1024).decode()                              # HTTPレスポンス受信
