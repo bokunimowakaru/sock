@@ -6,7 +6,7 @@
 
 import socket                                               # ソケットの組み込み
 from time import sleep                                      # スリープの組み込み
-from lib_humiSensorSHT import HumiSensor                    # センサ組み込み
+from lib_humiSensorSHT4 import HumiSensor                   # センサ組み込み
 
 port = 8080                                                 # ポート番号を代入
 humiSensor = HumiSensor()                                   # センサの実体化

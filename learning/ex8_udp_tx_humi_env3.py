@@ -6,7 +6,7 @@
 
 import socket                                               # ソケットの組み込み
 from time import sleep                                      # スリープの組み込み
-from lib_humiSensorSHT import HumiSensor                    # センサ組み込み
+from lib_humiSensorSHT3 import HumiSensor                   # センサ組み込み
 
 port = 1024                                                 # ポート番号を代入
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)     # ソケットを作成
