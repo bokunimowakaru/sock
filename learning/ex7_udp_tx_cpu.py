@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# UDPでリソース使用率を送信します。
+# リソース使用率送信機: UDPでリソース使用率を送信します。
 # Copyright (c) 2021-2025 Wataru KUNINO
 
 # Windowsの場合はPowerShellから下記を実行してください

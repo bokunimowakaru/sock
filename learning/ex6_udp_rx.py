@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# UDPで受信した文字列を表示します。
+# UDP受信機: UDPで受信した文字列を表示します。
 # Copyright (c) 2021-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み

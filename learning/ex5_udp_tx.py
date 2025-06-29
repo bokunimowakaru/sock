@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# UDPで文字列'Ping'を送信します。
+# UDP送信機: UDPで文字列'Ping'を送信します。
 # Copyright (c) 2021-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み

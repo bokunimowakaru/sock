@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# UDPを送信する
-# Copyright (c) 2021 Wataru KUNINO
-
-# UDPで温度値と湿度値を送信します。(外付けセンサ = SHT30)
-# ./ex3_tx_humi.py
+# センサ用UDP送信機: UDPで温度値と湿度値を送信します。(外付けセンサ = SHT30)
+# Copyright (c) 2021-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み
 from time import sleep                                      # スリープの組み込み

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# 実験用HTTPサーバ
+# 実験用 HTTP サーバ: ブラウザから TCP 接続があると HTML コンテンツを送信します
 # Copyright (c) 2022-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み
