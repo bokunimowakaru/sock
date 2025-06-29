@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# センサ用UDP送信機: UDPで温度値と湿度値を送信します。(外付けセンサ = SHT30)
+# センサ用UDP送信機: UDPで温度値と湿度値を送信します。(外付けセンサ = SHT40)
 # Copyright (c) 2021-2025 Wataru KUNINO
 
 import socket                                               # ソケットの組み込み
 from time import sleep                                      # スリープの組み込み
-from lib_humiSensorSHT import HumiSensor                    # センサ組み込み
+from lib_humiSensorSHT4 import HumiSensor                   # センサ組み込み
 
 port = 1024                                                 # ポート番号を代入
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)     # ソケットを作成
