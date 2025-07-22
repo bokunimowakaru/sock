@@ -115,7 +115,7 @@ UDPでリソース使用率を送信します。
 ## Lesson 8 センサ用UDP送信機
 
 ### [ex8_udp_tx_humi.py](learning/ex8_udp_tx_humi.py)  
-UDPで温度値と湿度値を送信します。(外付けセンサ = SHT30)  
+UDPで温度値と湿度値を送信します。(外付けセンサ = SHT40)  
 
 	(Bash コマンドモード)
 	cd ~/udp/learning
