@@ -129,6 +129,30 @@ UDPで温度値と湿度値を送信します。(外付けセンサ = SHT40)
 	python ex8_udp_tx_temp.py
 
 ----------------------------------------------------------------
+【PR】 Pythonで1行ずつ学ぶネットワーク(インターネット通信実験)
+
+本コンテンツと連携した記事
+「コマンド1行の通信実験で学ぶインターネットの基本」を
+Interface 2025年10月号(CQ出版社)の特集-第1部に
+執筆させていただきました。  
+
+	2025年8月25日発売 Interface 2025年10月号(CQ出版社)
+
+出版社：
+[https://interface.cqpub.co.jp/magazine/202510/]
+(https://interface.cqpub.co.jp/magazine/202510/)
+
+Amazon：
+[https://amzn.to/47P1Mxr]
+(https://amzn.to/47P1Mxr) アフィリエイトあり
+[https://www.amazon.co.jp/dp/B0FKB6PG4X]
+(https://www.amazon.co.jp/dp/B0FKB6PG4X)
+
+筆者ブログ：
+[https://bokunimo.net/blog/information/5930/]
+(https://bokunimo.net/blog/information/5930/)
+
+----------------------------------------------------------------
 ## GitHub Pages (This Document)
 * [https://git.bokunimo.com/sock/](https://git.bokunimo.com/sock/)  
 
