@@ -138,17 +138,17 @@ Interface 2025年10月号(CQ出版社)の特集-第1部に
 
 	2025年8月25日発売 Interface 2025年10月号(CQ出版社)
 
-![目次の画像](https://bokunimo.net/blog/wp-content/uploads/2025/08/IMG_20250821_18410wd1.jpg)
+![目次の画像](https://bokunimo.net/blog/wp-content/uploads/2025/08/IMG_20250821_18410wd1.jpg)  
 
 出版社：
-[https://interface.cqpub.co.jp/magazine/202510/](https://interface.cqpub.co.jp/magazine/202510/)
+[https://interface.cqpub.co.jp/magazine/202510/](https://interface.cqpub.co.jp/magazine/202510/)  
 
 Amazon：
-[https://amzn.to/47P1Mxr](https://amzn.to/47P1Mxr) アフィリエイトあり
-[https://www.amazon.co.jp/dp/B0FKB6PG4X](https://www.amazon.co.jp/dp/B0FKB6PG4X)
+[https://amzn.to/47P1Mxr](https://amzn.to/47P1Mxr) アフィリエイトあり  
+[https://www.amazon.co.jp/dp/B0FKB6PG4X](https://www.amazon.co.jp/dp/B0FKB6PG4X)  
 
 筆者ブログ：
-[https://bokunimo.net/blog/information/5930/](https://bokunimo.net/blog/information/5930/)
+[https://bokunimo.net/blog/information/5930/](https://bokunimo.net/blog/information/5930/)  
 
 ----------------------------------------------------------------
 ## GitHub Pages (This Document)
